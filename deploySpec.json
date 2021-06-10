@@ -1,0 +1,114 @@
+[
+    {
+        "Id": "sha256:6f52d805078e5acd1b380038098dd8c8868d415ea6a2dc3ef4abe0c772995ebd",
+        "RepoTags": [
+            "bmouhcine/custom-model-server:v7"
+        ],
+        "RepoDigests": [
+            "bmouhcine/custom-model-server@sha256:c612afc65952d573383df34773fc8d53424cde728f3b308a4453ae9f4b7cc24a"
+        ],
+        "Parent": "sha256:58eb5dee5547bf848ba7af0149165eb0ecdbf8cbd6b28af59932612672fac30b",
+        "Comment": "",
+        "Created": "2021-06-06T23:18:12.318565124Z",
+        "Container": "6b3973616bbb132adad081c4e8634f03215335f095b8c45b462ac2f9d54062ad",
+        "ContainerConfig": {
+            "Hostname": "6b3973616bbb",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D",
+                "PYTHON_VERSION=3.7.10",
+                "PYTHON_PIP_VERSION=21.1.2",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/936e08ce004d0b2fae8952c50f7ccce1bc578ce5/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=8890955d56a8262348470a76dc432825f61a84a54e2985a86cd520f656a6e220",
+                "APP_HOME=/app"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"python\" \"custom-KFModel.py\"]"
+            ],
+            "Image": "sha256:58eb5dee5547bf848ba7af0149165eb0ecdbf8cbd6b28af59932612672fac30b",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.7",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D",
+                "PYTHON_VERSION=3.7.10",
+                "PYTHON_PIP_VERSION=21.1.2",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/936e08ce004d0b2fae8952c50f7ccce1bc578ce5/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=8890955d56a8262348470a76dc432825f61a84a54e2985a86cd520f656a6e220",
+                "APP_HOME=/app"
+            ],
+            "Cmd": [
+                "python",
+                "custom-KFModel.py"
+            ],
+            "Image": "sha256:58eb5dee5547bf848ba7af0149165eb0ecdbf8cbd6b28af59932612672fac30b",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 3520817639,
+        "VirtualSize": 3520817639,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/684722cb0caf463114c6ea62eb645c28fd6f1b0e86650f2a2a4bd1561b611f92/diff:/var/lib/docker/overlay2/618555eb6aca763ae242dedee0b371deb4d86ddeb6944c3463567f245b52326f/diff:/var/lib/docker/overlay2/cfd51c500a894cc1baa3dd5282795f23a7f1c0dec8943c75adebed642b455ca3/diff:/var/lib/docker/overlay2/25bdd021a1cef3e9354a34f51ca3e3f8ee50f0d22bee3220d74511cb49de2a44/diff:/var/lib/docker/overlay2/f573d6ec4b27bb0c3a85fc4d07383776583a6625fbb3d5f0a73f7a6cd246274b/diff:/var/lib/docker/overlay2/7a2b929e265ae4762e67db9691d9bcee40f783175a091836992dfb69b57cc0c5/diff:/var/lib/docker/overlay2/f172700f7731f78b8cf303c1501a45fb4ea5b2d6e7edb624346ef424e823df26/diff:/var/lib/docker/overlay2/2da000e9370cf7b053e52952fe6fac65a4501bf62afd3be042782ffb6accbd4f/diff:/var/lib/docker/overlay2/3fc4d6c7d40d595322b3121591f1542d2522d4d8dd74813e41a32c713a574194/diff:/var/lib/docker/overlay2/fe3ed2a2708e324ac89ea9d99fa87f720f8092dacfa323dfb2ff0071f044d9ee/diff:/var/lib/docker/overlay2/b80d81d685615d2d1b38103034e31580812f90eb8c52978a8df6114b9bda099e/diff",
+                "MergedDir": "/var/lib/docker/overlay2/5fe97b6f1a61b15f254c995176e22be08dc060f4684a77512fc4828532ca758b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/5fe97b6f1a61b15f254c995176e22be08dc060f4684a77512fc4828532ca758b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/5fe97b6f1a61b15f254c995176e22be08dc060f4684a77512fc4828532ca758b/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:02c055ef67f5904019f43a41ea5f099996d8e7633749b6e606c400526b2c4b33",
+                "sha256:f9ef7f1bcb199f8d36e3d939a8b83c53aa79f7caa71d16f92e918a24c6fa45d6",
+                "sha256:4a36e2652108deffd504c214cf252bed4f3469a56edd7a3735e0fcf6acc504c6",
+                "sha256:8506f6dcbf82345293a52580ec2038279dd832c1b62a1097ad9052383aafa55f",
+                "sha256:55131b45c60c8112868d1a5b27cb1c3babb120cde53f68f0ad717d94e09962d2",
+                "sha256:c65a7248890b4071d1ace656c69690edaaa0dfb1d222c269e14e14e442283472",
+                "sha256:33ac78f0df21fb573512565056856d2ffd9192043a2afe254de2164987e5c18b",
+                "sha256:07d62701e25fec5d8de8065126c32b1df3c63976e68161572c12b093624f0a55",
+                "sha256:926304a9c26dda495ca6f31cfdb66c42a55aa59695d777e1415b22c7c6fd5842",
+                "sha256:f8c8d1def47973558231b9ef5e363b06472664eaa696236d005e3a9c975d8efc",
+                "sha256:4fa69ea7b338c71ed22c9f2ab5a48158776cc1cce9ef0087c2da262dbbe2a9c2",
+                "sha256:0bba4833e094c8dee23f6b2fada705a9925acf9f2714a1bfc43380dfa089553a"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2021-06-06T23:18:12.411446526Z"
+        }
+    }
+]
