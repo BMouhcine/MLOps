@@ -22,7 +22,7 @@ outputs:
 implementation:
   container:
     image: aipipeline/kfserving-component:v0.3.0
-    command: ['python']
+    command: ['python3']
     args: [
       -u, kfservingdeployer.py,
       --action,                 {inputValue: Action},
