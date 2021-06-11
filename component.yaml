@@ -19,7 +19,6 @@ inputs:
   - {name: Min Replicas,                    type: String, default: '-1', description: 'Minimum number of InferenceService replicas'}
   - {name: Max Replicas,                    type: String, default: '-1', description: 'Maximum number of InferenceService replicas'}
 outputs:
-  - {name: Service Endpoint URI, type: String,                      description: 'URI of the deployed prediction service..'}
   - {name: InferenceService Status,   type: String,                        description: 'Status JSON output of InferenceService'}
 implementation:
   container:
