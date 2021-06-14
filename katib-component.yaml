@@ -10,7 +10,7 @@ outputs:
 - {name: Best Parameter Set,         type: JsonObject,                       description: 'The hyperparameter set of the best Experiment Trial'}
 implementation:
   container:
-    image: bmouhcine/katib-component:v0
+    image: bmouhcine/katib-component:v12
     command: [python, src/launch_experiment.py]
     args: [
       --experiment-name,            {inputValue: Experiment Name},
