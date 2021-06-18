@@ -5,14 +5,14 @@
     "labels": {
       "controller-tools.k8s.io": "1.0"
     },
-    "name": "kfserving-custom-model-2"
+    "name": "kfserving-custom-model"
   },
   "spec": {
     "default": {
       "predictor": {
         "custom": {
           "container": {
-            "image": "bmouhcine/custom-model-server:v7",
+            "image": "bmouhcine/custom-model-server:v8",
             "resources": {
               "requests": {
                 "memory": "4096Mi",
