@@ -22,7 +22,7 @@ outputs:
     - {name: Service Endpoint URI, type: String,                      description: 'URI of the deployed prediction service..'}
 implementation:
   container:
-    image: bmouhcine/kfserving-component:v8
+    image: bmouhcine/kfserving-component:v9
     command: ['python']
     args: [
       -u, kfservingdeployer.py,
