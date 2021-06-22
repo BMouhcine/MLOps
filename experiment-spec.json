@@ -20,7 +20,7 @@
     "algorithmName": "random"
   },
   "parallelTrialCount": 2,
-  "maxTrialCount": 5,
+  "maxTrialCount": 2,
   "maxFailedTrialCount": 2,
   "parameters": [
     {
@@ -35,8 +35,8 @@
       "name": "--num_train_epochs",
       "parameterType": "int",
       "feasibleSpace": {
-        "min": "3",
-        "max": "5"
+        "min": "1",
+        "max": "2"
       }
     },
     {
