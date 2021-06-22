@@ -20,7 +20,7 @@
     "algorithmName": "random"
   },
   "parallelTrialCount": 2,
-  "maxTrialCount": 2,
+  "maxTrialCount": 5,
   "maxFailedTrialCount": 2,
   "parameters": [
     {
