@@ -12,7 +12,7 @@
       "predictor": {
         "custom": {
           "container": {
-            "image": "bmouhcine/custom-model-server:v9",
+            "image": "bmouhcine/custom-model-server:v8",
             "command": "",
             "resources": {
               "requests": {
