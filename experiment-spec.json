@@ -50,7 +50,7 @@
   ],
   "trialTemplate": {
     "goTemplate": {
-      "rawTemplate": "apiVersion: batch/v1\nkind: Job\nmetadata:\n  name: {{.Trial}}\n  namespace: {{.NameSpace}}\nspec:\n  template:\n    spec:\n      containers:\n      - name: {{.Trial}}\n        image: bmouhcine/train_katib:v5\n        command:\n        - \"python\"\n        - \"train.py\"\n        - \"--tokenizer=./tokenizer.json\"\n        {{- with .HyperParameters}}\n        {{- range .}}\n        - \"{{.Name}}={{.Value}}\"\n        {{- end}}\n        {{- end}}\n      restartPolicy: Never"
+      "rawTemplate": "apiVersion: batch/v1\nkind: Job\nmetadata:\n  name: {{.Trial}}\n  namespace: {{.NameSpace}}\nspec:\n  template:\n    spec:\n      containers:\n      - name: {{.Trial}}\n        image: bmouhcine/train_katib:v8\n        command:\n        - \"python\"\n        - \"train.py\"\n        {{- with .HyperParameters}}\n        {{- range .}}\n        - \"{{.Name}}={{.Value}}\"\n        {{- end}}\n        {{- end}}\n      restartPolicy: Never"
     }
   }
 }
