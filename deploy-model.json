@@ -13,7 +13,6 @@
         "custom": {
           "container": {
             "image": "bmouhcine/custom-model-server:v7",
-            "command": "",
             "resources": {
               "requests": {
                 "memory": "4096Mi",
