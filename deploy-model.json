@@ -12,7 +12,7 @@
       "predictor": {
         "custom": {
           "container": {
-            "image": "bmouhcine/custom-model-server:v11",
+            "image": "bmouhcine/custom-model-server:v12",
             "resources": {
               "requests": {
                 "memory": "4096Mi",
